@@ -1,5 +1,4 @@
-## 157 Loaded Components:
-
+## 163 Loaded Components:
 * alarm_control_panel
 * alarm_control_panel.bwalarm
 * alarm_control_panel.verisure
@@ -10,6 +9,7 @@
 * binary_sensor
 * binary_sensor.deconz
 * binary_sensor.mqtt
+* binary_sensor.ping
 * binary_sensor.ring
 * binary_sensor.template
 * binary_sensor.verisure
@@ -39,7 +39,6 @@
 * config.group
 * config.script
 * config.zwave
-* conversation
 * counter
 * cover
 * cover.deconz
@@ -50,6 +49,7 @@
 * customizer
 * deconz
 * device_tracker
+* discovery
 * fan
 * fan.zwave
 * ffmpeg
@@ -72,6 +72,7 @@
 * light.lifx
 * light.mqtt
 * light.rfxtrx
+* light.template
 * light.xiaomi_aqara
 * light.zwave
 * lock
@@ -83,6 +84,7 @@
 * lovelace
 * map
 * media_player
+* media_player.androidtv
 * media_player.cast
 * media_player.plex
 * media_player.samsungtv
@@ -100,6 +102,7 @@
 * proximity
 * python_script
 * recorder
+* rest_command
 * rfxtrx
 * ring
 * scene
@@ -110,6 +113,7 @@
 * sensor.command_line
 * sensor.darksky
 * sensor.deconz
+* sensor.glances
 * sensor.history_stats
 * sensor.imap_email_content
 * sensor.ios
@@ -137,6 +141,7 @@
 * sun
 * switch
 * switch.broadlink
+* switch.command_line
 * switch.deconz
 * switch.mqtt
 * switch.rfxtrx
@@ -157,3 +162,11 @@
 * zeroconf
 * zone
 * zwave
+
+## Custom Components I use
+* [Pollenkoll](https://github.com/JohNan/home-assistant-pollenkoll) - Swedish component for pollen information in sensors.
+* [Plex Recently Added](https://github.com/custom-components/sensor.plex_recently_added)
+* [Krisinformation](https://github.com/isabellaalstrom/sensor.krisinformation) - My own component for getting alerts and news from a Swedish site.
+* [Android TV](https://github.com/hassio-addons/addon-adb#integrating-into-home-assistant) - Component to use with the addon for Android debug bridge.
+* [Custom Alarm Interface](https://github.com/gazoscalvertos/Hass-Custom-Alarm)
+* [Custom Updater](https://github.com/custom-components/custom_updater)
