@@ -8,14 +8,15 @@ theme:
     accent: 'indigo'
 nav:
   - Home: index.md
-  - Home Assistant: 000-hass.md 
-  - Ecosystem: 001-ecosystem.md
-  - Lovelace: 002-lovelace.md
-  - Addons: 003-hassio-addons.md
-  - Components: 004-components.md
-  - Presence Detection: 005-presence-detection.md
+  - Home Assistant: hass.md 
+  - Ecosystem: ecosystem.md
+  - Lovelace: lovelace.md
+  - Addons: hassio-addons.md
+  - Components: components.md
+  - Presence Detection: presence-detection.md
 
-  - Linux Commands: 999-linux-commands.md
+  - Linux Commands: linux-commands.md
+  - Featured: featured.md
 
 repo_url: https://github.com/isabellaalstrom/HomeAssistantConfiguration
 repo_name: My Home Assistant Config
