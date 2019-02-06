@@ -107,7 +107,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#my-home-assistant-configuration" tabindex="1" class="md-skip">
+      <a href="#running-hassio-on-an-intel-nuc-with-ubuntu-server-in-docker" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -267,8 +267,6 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         Home Assistant
@@ -282,8 +280,6 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -291,13 +287,6 @@
         <li class="md-nav__item">
   <a href="#running-hassio-on-an-intel-nuc-with-ubuntu-server-in-docker" title="Running Hass.io on an Intel Nuc with Ubuntu Server, in docker." class="md-nav__link">
     Running Hass.io on an Intel Nuc with Ubuntu Server, in docker.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#get-in-contact" title="Get in contact:" class="md-nav__link">
-    Get in contact:
   </a>
   
 </li>
@@ -423,8 +412,6 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -432,13 +419,6 @@
         <li class="md-nav__item">
   <a href="#running-hassio-on-an-intel-nuc-with-ubuntu-server-in-docker" title="Running Hass.io on an Intel Nuc with Ubuntu Server, in docker." class="md-nav__link">
     Running Hass.io on an Intel Nuc with Ubuntu Server, in docker.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#get-in-contact" title="Get in contact:" class="md-nav__link">
-    Get in contact:
   </a>
   
 </li>
@@ -462,26 +442,16 @@
                   <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/edit/master/docs/hass.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="my-home-assistant-configuration">My Home Assistant Configuration</h1>
-<p><a href="#"><img alt="maintained" src="https://img.shields.io/maintenance/yes/2019.svg?style=popout" /></a>  <img alt="" src="https://img.shields.io/github/last-commit/isabellaalstrom/HomeAssistantConfiguration.svg?style=popout" /></p>
-<p><img alt="" src="https://img.shields.io/github/issues-raw/isabellaalstrom/HomeAssistantConfiguration.svg?label=Open%20todos&amp;style=popout" />  <img alt="" src="https://img.shields.io/github/issues-closed-raw/isabellaalstrom/HomeAssistantConfiguration.svg?colorB=green&amp;label=Closed%20todos&amp;style=popout" />  <img alt="" src="https://img.shields.io/github/issues/isabellaalstrom/HomeAssistantConfiguration/bug.svg?colorB=red&amp;label=Bugs&amp;style=popout" /></p>
-<p><img alt="" src="https://img.shields.io/discord/330944238910963714.svg?label=Hass%20Discord&amp;style=popout" />  <a href="https://twitter.com/teachingbirds"><img alt="" src="https://img.shields.io/twitter/follow/espadrine.svg?label=Follow%20me%20on%20Twitter&amp;style=social?style=popout" /></a></p>
-<p>I'm updating wiki on a regular basis but some things may not be up to date</p>
-<p>I'm using the <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/issues">issues</a> and <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/projects/1">project</a> to keep track of bugs in my configuration and new features I want to make/use.</p>
-<h3 id="running-hassio-on-an-intel-nuc-with-ubuntu-server-in-docker">Running Hass.io on an <a href="https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc5cpyh.html">Intel Nuc</a> with Ubuntu Server, in docker.</h3>
+                  <h1>Home Assistant</h1>
+                
+                <h3 id="running-hassio-on-an-intel-nuc-with-ubuntu-server-in-docker">Running Hass.io on an <a href="https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc5cpyh.html">Intel Nuc</a> with Ubuntu Server, in docker.</h3>
 <p>To run Hass.io this way, <a href="https://github.com/home-assistant/hassio-build/blob/master/install/README.md">install manually in Docker</a>.</p>
 <ul>
-<li>Running a slave instance of Home Assistant on a Raspberry Pi 3 with a 16 gb memory card for better bt range~.</li>
+<li>Running a slave instance of Home Assistant on a Raspberry Pi 3 with a 16 gb memory card for better bt range.</li>
 <li>Using native Homekit component to get support for Homekit and Siri.</li>
-<li>~~Using Home Assistant Cloud for Alexa.~~ Not in use right now.</li>
 </ul>
 <p>My configuration is broken down into <a href="https://www.home-assistant.io/docs/configuration/packages/">packages</a>, sort of mini configuration-files. This makes it easy to see everything pertaining to a specific implementation.</p>
 <p>Most of my more advanced automations are migrated to Appdaemon apps.</p>
-<h3 id="get-in-contact">Get in contact:</h3>
-<p><a href="https://twitter.com/teachingbirds">Twitter</a></p>
-<p><a href="mailto:isabella.alstrom@gmail.com">Email</a></p>
-<p>I put a lot of work into making this repo available and updated to inspire and help others! If you want to, you can support me here:</p>
-<p><a href="https://www.buymeacoffee.com/iq1f96D" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a></p>
                 
                   
                 
