@@ -9,7 +9,9 @@ theme:
 nav:
   - Home: index.md
   - Home Assistant: hass.md 
-  - Ecosystem: ecosystem.md
+  - Ecosystem: 
+      - 'My Smart Home': 'ecosystem.md'
+      - 'Batteries': 'batteries.md'
   - Lovelace: lovelace.md
   - Addons: hassio-addons.md
   - Components: components.md
