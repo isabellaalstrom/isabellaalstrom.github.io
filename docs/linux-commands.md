@@ -1,4 +1,4 @@
-### Commands that are good to know for debugging or other things
+### Commands I find useful
 
 #### Check the 200 latest rows in the log (good for knowing why something went wrong)
 Increase number for more rows, or skip to get the whole log. If log have rotated since incident add `.1` after syslog.
