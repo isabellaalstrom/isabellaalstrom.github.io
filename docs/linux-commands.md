@@ -33,3 +33,6 @@ then
 `55  *   *   *   * systemctl restart monitor.service`
 
 The above cron expression runs at hh.55 every hour. [Cron expression examples](http://docwiki.embarcadero.com/Connect/en/Writing_a_CRON_Expression#CRON_Expression_Examples)
+
+### Command cli for non Hass.io users
+* [hassctl](https://github.com/dale3h/hassctl)
