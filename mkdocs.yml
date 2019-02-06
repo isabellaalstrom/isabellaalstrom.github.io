@@ -14,10 +14,22 @@ nav:
   - Addons: hassio-addons.md
   - Components: components.md
   - Presence Detection: presence-detection.md
+  - My Hass development: dev.md
 
   - Linux Commands: linux-commands.md
   - Featured: featured.md
 
 repo_url: https://github.com/isabellaalstrom/HomeAssistantConfiguration
 repo_name: My Home Assistant Config
+edit_uri: null
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/isabellaalstrom'
+    - type: 'twitter'
+      link: 'https://twitter.com/teachingbirds'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/isabellaalstrom/'
+
 google_analytics: ['UA-133907099-1', 'isabellaalstrom.se']
