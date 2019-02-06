@@ -1,6 +1,6 @@
-Great compilation of Lovelace resources: [sharethelove.io](https://sharethelove.io/custom-resources)
+## Great compilation of Lovelace resources: [sharethelove.io](https://sharethelove.io/custom-resources)
 
-**New to custom cards?** [Read this before you try to add some](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
+## **New to custom cards?** [Read this before you try to add some](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
 
 
 I'm using yaml mode, with includes.
@@ -10,9 +10,9 @@ This is very much still a work in progress, so files might not correspond exactl
 
 
 ## Examples from my Lovelace gui
-### I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples.
+I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples.
 
-![Home view](img/home-web.png)
+![Home view](img/home-web.png){: style="height=36px;width=36px"}
 ![Home view](img/home-info-web.png)
 ![Home view](img/lights-web.png)
 ![Home view](img/info-web.png)

@@ -38,7 +38,7 @@
     
     
       
-        <title>Presence Detection - Isabella Gross Alström</title>
+        <title>Lovelace - Isabella Gross Alström</title>
       
     
     
@@ -107,7 +107,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#presence-detection" tabindex="1" class="md-skip">
+      <a href="#examples-from-my-lovelace-gui" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -133,7 +133,7 @@
                 Isabella Gross Alström
               </span>
               <span class="md-header-nav__topic">
-                Presence Detection
+                Lovelace
               </span>
             
           
@@ -262,7 +262,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../000-hass/" title="Home Assistant" class="md-nav__link">
+    <a href="../hass/" title="Home Assistant" class="md-nav__link">
       Home Assistant
     </a>
   </li>
@@ -274,44 +274,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../001-ecosystem/" title="Ecosystem" class="md-nav__link">
+    <a href="../ecosystem/" title="Ecosystem" class="md-nav__link">
       Ecosystem
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../002-lovelace/" title="Lovelace" class="md-nav__link">
-      Lovelace
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../003-hassio-addons/" title="Addons" class="md-nav__link">
-      Addons
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../004-components/" title="Components" class="md-nav__link">
-      Components
     </a>
   </li>
 
@@ -329,11 +293,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Presence Detection
+        Lovelace
       </label>
     
-    <a href="./" title="Presence Detection" class="md-nav__link md-nav__link--active">
-      Presence Detection
+    <a href="./" title="Lovelace" class="md-nav__link md-nav__link--active">
+      Lovelace
     </a>
     
       
@@ -345,8 +309,28 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#presence-detection" title="Presence-detection" class="md-nav__link">
-    Presence-detection
+  <a href="#examples-from-my-lovelace-gui" title="Examples from my Lovelace gui" class="md-nav__link">
+    Examples from my Lovelace gui
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-have-tried-to-make-a-gui-that-is-mobile-first-since-thats-how-i-most-often-look-at-it-scroll-down-for-mobile-examples" title="I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples." class="md-nav__link">
+    I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#old-version-of-lovelace-gui" title="Old version of Lovelace gui" class="md-nav__link">
+    Old version of Lovelace gui
   </a>
   
 </li>
@@ -368,8 +352,56 @@
 
 
   <li class="md-nav__item">
-    <a href="../999-linux-commands/" title="Linux Commands" class="md-nav__link">
+    <a href="../hassio-addons/" title="Addons" class="md-nav__link">
+      Addons
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../components/" title="Components" class="md-nav__link">
+      Components
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../presence-detection/" title="Presence Detection" class="md-nav__link">
+      Presence Detection
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../linux-commands/" title="Linux Commands" class="md-nav__link">
       Linux Commands
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../featured/" title="Featured" class="md-nav__link">
+      Featured
     </a>
   </li>
 
@@ -393,8 +425,28 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#presence-detection" title="Presence-detection" class="md-nav__link">
-    Presence-detection
+  <a href="#examples-from-my-lovelace-gui" title="Examples from my Lovelace gui" class="md-nav__link">
+    Examples from my Lovelace gui
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-have-tried-to-make-a-gui-that-is-mobile-first-since-thats-how-i-most-often-look-at-it-scroll-down-for-mobile-examples" title="I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples." class="md-nav__link">
+    I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#old-version-of-lovelace-gui" title="Old version of Lovelace gui" class="md-nav__link">
+    Old version of Lovelace gui
   </a>
   
 </li>
@@ -415,19 +467,40 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/edit/master/docs/005-presence-detection.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/edit/master/docs/lovelace.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Presence Detection</h1>
+                  <h1>Lovelace</h1>
                 
-                <h3 id="presence-detection">Presence-detection</h3>
-<ul>
-<li>Ios-app for Hass</li>
-<li>Nmap</li>
-<li>BT tracking</li>
-<li>~~Homekit~~</li>
-</ul>
-<p>"Better presence" Appdaemon app from <a href="https://github.com/helto4real/hassio/tree/master/appdaemon/apps/presence">helto4real</a> knits gps, bt and wifi tracking together into one tracker.</p>
+                <p>Great compilation of Lovelace resources: <a href="https://sharethelove.io/custom-resources">sharethelove.io</a></p>
+<p><strong>New to custom cards?</strong> <a href="https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins">Read this before you try to add some</a>.</p>
+<p>I'm using yaml mode, with includes.</p>
+<p>My main Lovelace-file is found <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/ui-lovelace.yaml">here</a>, and my folder with includes <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/tree/master/lovelace">here</a>.
+This is very much still a work in progress, so files might not correspond exactly to screenshots.</p>
+<h2 id="examples-from-my-lovelace-gui">Examples from my Lovelace gui</h2>
+<h3 id="i-have-tried-to-make-a-gui-that-is-mobile-first-since-thats-how-i-most-often-look-at-it-scroll-down-for-mobile-examples">I have tried to make a gui that is mobile first, since that's how I most often look at it, scroll down for mobile examples.</h3>
+<p><img alt="Home view" src="../img/home-web.png" />
+<img alt="Home view" src="../img/home-info-web.png" />
+<img alt="Home view" src="../img/lights-web.png" />
+<img alt="Home view" src="../img/info-web.png" />
+<img alt="Home view" src="../img/automations-web.png" /></p>
+<p><img alt="Home view" src="../img/home.png" />
+<img alt="Home view" src="../img/lights.png" />
+<img alt="Home view" src="../img/home-info.png" />
+<img alt="Home view" src="../img/info.png" />
+<img alt="Home view" src="../img/cameras.png" />
+<img alt="Home view" src="../img/traffic.png" /></p>
+<p>I put a lot of work into making this repo available and updated to inspire and help others! If you want to, you can support me here:</p>
+<p><a href="https://www.buymeacoffee.com/iq1f96D" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a></p>
+<h2 id="old-version-of-lovelace-gui">Old version of Lovelace gui</h2>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home.png" alt="Home Assistant" width="300" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home-info.png" alt="Home Assistant" width="300" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-lights.png" alt="Home Assistant" width="300" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-info.png" alt="Home Assistant" width="300" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home-web.png" alt="Home Assistant" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home-info-web.png" alt="Home Assistant" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-lights-web.png" alt="Home Assistant" /></p>
+<p><img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-info-web.png" alt="Home Assistant" /></p>
                 
                   
                 
@@ -448,7 +521,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../004-components/" title="Components" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../ecosystem/" title="Ecosystem" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -457,19 +530,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Components
+                Ecosystem
               </span>
             </div>
           </a>
         
         
-          <a href="../999-linux-commands/" title="Linux Commands" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../hassio-addons/" title="Addons" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Linux Commands
+                Addons
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
