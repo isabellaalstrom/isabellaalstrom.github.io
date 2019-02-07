@@ -24,6 +24,8 @@ repo_name: My Home Assistant Config
 edit_uri: null
 
 extra:
+
+  disqus: 'isabellaalstrom'
   social:
     - type: 'github'
       link: 'https://github.com/isabellaalstrom'

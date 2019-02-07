@@ -29,22 +29,3 @@ I have tried to make a gui that is mobile first, since that's how I most often l
 I put a lot of work into making this repo available and updated to inspire and help others! If you want to, you can support me here:
 
 <a href="https://www.buymeacoffee.com/iq1f96D" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## Old version of Lovelace gui
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home.png" alt="Home Assistant" width="300" />
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home-info.png" alt="Home Assistant" width="300" />
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-lights.png" alt="Home Assistant" width="300" />
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-info.png" alt="Home Assistant" width="300" />
-
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home-web.png" alt="Home Assistant" />
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-home-info-web.png" alt="Home Assistant" />
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-lights-web.png" alt="Home Assistant" />
-
-<img src="https://github.com/isabellaalstrom/HomeAssistantConfiguration/blob/master/Images/old%20LL%20gui/Lovelace-info-web.png" alt="Home Assistant" />
