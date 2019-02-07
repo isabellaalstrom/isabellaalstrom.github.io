@@ -1,3 +1,5 @@
+Other than this I try to contribute to the docs whenever I can. [It's easy!](https://developers.home-assistant.io/docs/en/documentation_index.html)
+
 
 ##Custom Components
 ###[Krisinformation](https://github.com/isabellaalstrom/sensor.krisinformation)

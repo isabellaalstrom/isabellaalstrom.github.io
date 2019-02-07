@@ -38,7 +38,7 @@
     
     
       
-        <title>Presence Detection - Isabella Gross Alström</title>
+        <title>Batteries - Isabella Gross Alström</title>
       
     
     
@@ -107,10 +107,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#presence-detection-methods-i-use" tabindex="1" class="md-skip">
-        Skip to content
-      </a>
-    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -133,7 +129,7 @@
                 Isabella Gross Alström
               </span>
               <span class="md-header-nav__topic">
-                Presence Detection
+                Batteries
               </span>
             
           
@@ -272,10 +268,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Ecosystem
@@ -303,11 +301,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../batteries/" title="Batteries" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Batteries" class="md-nav__link md-nav__link--active">
       Batteries
     </a>
+    
   </li>
 
         
@@ -356,58 +361,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Presence Detection
-      </label>
-    
-    <a href="./" title="Presence Detection" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../presence-detection/" title="Presence Detection" class="md-nav__link">
       Presence Detection
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#presence-detection-methods-i-use" title="Presence detection methods I use" class="md-nav__link">
-    Presence detection methods I use
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#better-presence-detection" title="Better presence detection" class="md-nav__link">
-    Better presence detection
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comments" class="md-nav__link md-nav__link--active">
-            Comments
-          </a>
-        </li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -454,72 +412,24 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#presence-detection-methods-i-use" title="Presence detection methods I use" class="md-nav__link">
-    Presence detection methods I use
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#better-presence-detection" title="Better presence detection" class="md-nav__link">
-    Better presence detection
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comments" class="md-nav__link md-nav__link--active">
-            Comments
-          </a>
-        </li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/edit/master/docs/presence-detection.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/isabellaalstrom/HomeAssistantConfiguration/edit/master/docs/batteries.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Presence Detection</h1>
+                  <h1>Batteries</h1>
                 
-                <p>One of the most important things in a home automation setup is presence detection. You can do so much and so much can fail if it doesn't work properly.</p>
-<h3 id="presence-detection-methods-i-use">Presence detection methods I use</h3>
+                <p>Some time ago I got a hold of a list of what kind of batteries different sensors use. I haven't tried all of these out, but thought I'd share anyway.</p>
 <ul>
-<li><a href="https://itunes.apple.com/us/app/home-assistant-companion/id1099568401?mt=8">iOS app for Hass</a> - gps</li>
-<li><a href="https://www.home-assistant.io/components/device_tracker.nmap_tracker/">Nmap</a> - wifi</li>
-<li><a href="https://github.com/andrewjfreyer/monitor">BT tracking</a> - bluetooth</li>
+<li>CR2032 (Xiaomi temp, Xiaomi knapp, Visonic door sensor)</li>
+<li>CR123A (Fibaro pir, Neo Coolcam pir)</li>
+<li>CR1632 (Xiaomi door sensor)</li>
+<li>CR2450 (Xiaomi motion)</li>
+<li>CR14250 (Neo Coolcam door sensor)</li>
 </ul>
-<p>None of these methods are 100 % on their own (even though the iOS app have been almost there since the release of v1.5). For example the wifi on phones tend to go into sleep mode when not used. Add some automations to that and you have all your lights go on as if you just came home, in the middle of the night.
-This is why I use three different methods, combining them into one sensor that I then use for my automations.</p>
-<p>Rudimentary this can be done with putting all trackers in a group, the group will always be "home" if one of the devices is home. But I wanted more. I read <a href="https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/">Phil Hawthornes blog post about presence</a> and tried his idea out. It still wasn't 100 %, even though having your automations fire at "Just arrived" instead of "Home" makes a difference (read the blog post if you don't understand what I'm talking about). I needs some more logic to it.</p>
-<h3 id="better-presence-detection">Better presence detection</h3>
-<p>I've been using the <a href="https://github.com/helto4real/hassio/tree/master/appdaemon/apps/presence">"Better presence" Appdaemon app from helto4real</a>, that knits gps, bt and wifi tracking together into one tracker, with some advanced logic. For example bt and wifi trackers immediately sets the combined tracker to "Just arrived" if you are away and one of them shows home. If both of them are away, but gps is still home, it checks how long ago it was that the gps tracker last reported you were home before deciding what to do. This kind of logic is what gets it as close to 100 % as possible. Things can still go wrong of course, it's "only" technology, but I think this is about as good as it gets.</p>
-<p>The same guy recently released a beta of an Hass.io addon that does the same thing. Get it here: <a href="https://github.com/helto4real/hassio-add-ons/tree/master/presence">A better presence</a>.</p>
-<p>I'm trying it out right now!</p>
                 
                   
                 
@@ -556,7 +466,7 @@ This is why I use three different methods, combining them into one sensor that I
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../components/" title="Components" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../ecosystem/" title="My Smart Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -565,19 +475,19 @@ This is why I use three different methods, combining them into one sensor that I
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Components
+                My Smart Home
               </span>
             </div>
           </a>
         
         
-          <a href="../dev/" title="My Hass development" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../lovelace/" title="Lovelace" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                My Hass development
+                Lovelace
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
