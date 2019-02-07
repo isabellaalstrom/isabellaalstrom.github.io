@@ -23,10 +23,10 @@ nav:
 
 repo_url: https://github.com/isabellaalstrom/HomeAssistantConfiguration
 repo_name: My Home Assistant Config
+site_url: 'https://isabellaalstrom.github.io/'
 edit_uri: null
 
 extra:
-
   disqus: 'isabellaalstrom'
   social:
     - type: 'github'
