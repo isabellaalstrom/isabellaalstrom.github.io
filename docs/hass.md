@@ -22,4 +22,7 @@ The moce to a Nuc also saves me a lot of headache with SD cards that suddenly st
 
 My configuration is broken down into [packages](https://www.home-assistant.io/docs/configuration/packages/), sort of mini configuration-files. This makes it easy to see everything pertaining to a specific implementation. I am just now in the process of restructuring my config, but most things still reside in the packages folder.
 
+!!! info "Packages"
+    While using packages you can no longer reload your config with the buttons in the ui.
+
 Most of my more advanced automations are migrated to Appdaemon apps.
