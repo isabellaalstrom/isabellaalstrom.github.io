@@ -37,3 +37,8 @@ extra:
       link: 'https://www.linkedin.com/in/isabellaalstrom/'
 
 google_analytics: ['UA-133907099-1', 'isabellaalstrom.se']
+markdown_extensions:
+  - admonition
+  # - pymdownx.attr_list
+  - pymdownx.tilde
+  # - zoomify
